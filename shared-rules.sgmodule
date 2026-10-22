@@ -172,6 +172,7 @@ DOMAIN-SUFFIX,vivo.com,DIRECT
 #!欧路
 DOMAIN-SUFFIX,eudic.net,DIRECT
 DOMAIN-SUFFIX,eudic.cn,DIRECT
+DOMAIN,hermes-skill-check.example.com,DIRECT
 DOMAIN-SUFFIX,example.com,PROXY
 DOMAIN,api.example.net,PROXY
 # 其他
