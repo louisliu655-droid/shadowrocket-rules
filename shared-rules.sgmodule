@@ -4,6 +4,7 @@
 #!arguments-desc=各参数填写本机已有的代理分组名；可填写 PROXY 使用本机代理。Final 为最终未命中流量的策略。
 
 [Rule]
+DOMAIN,chatgpt-skill-check.example.com,DIRECT
 DOMAIN-KEYWORD,.cn,DIRECT
 DOMAIN,notes.louisliu.net.cn,DIRECT
 DOMAIN,sync.louisliu.net.cn,DIRECT
