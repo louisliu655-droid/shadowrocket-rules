@@ -34,8 +34,8 @@ DOMAIN-SUFFIX,meta.ai,{{{AI}}}
 DOMAIN-SUFFIX,meta.com,{{{AI}}}
 DOMAIN-SUFFIX,facebook.com,{{{AI}}}
 DOMAIN-SUFFIX,facebook.net,{{{AI}}}
-DOMAIN-SUFFIX,fbcdn.net,{{{AI}}}
-DOMAIN-SUFFIX,fbsbx.com,{{{AI}}}
+DOMAIN-SUFFIX,fbcdn.net,{{{Video}}}
+DOMAIN-SUFFIX,fbsbx.com,{{{Video}}}
 # Instagram → Video 参数（本机填 Watchthevideo）
 DOMAIN-SUFFIX,instagram.com,{{{Video}}}
 DOMAIN-SUFFIX,cdninstagram.com,{{{Video}}}
