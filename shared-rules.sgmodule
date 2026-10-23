@@ -32,6 +32,8 @@ DOMAIN-SUFFIX,openaipublic.blob.core.windows.net,{{{ChatGPT}}}
 DOMAIN-SUFFIX,openai.azure.com,{{{ChatGPT}}}
 DOMAIN-SUFFIX,meta.ai,{{{AI}}}
 DOMAIN-SUFFIX,meta.com,{{{AI}}}
+# Muse（com.meta.endo）：api/auth/vm.muse.ai 全部 CNAME 到 c10r.facebook.com，必须走 AI 组
+DOMAIN-SUFFIX,muse.ai,{{{AI}}}
 DOMAIN-SUFFIX,facebook.com,{{{AI}}}
 DOMAIN-SUFFIX,facebook.net,{{{AI}}}
 DOMAIN-SUFFIX,fbcdn.net,{{{Video}}}
