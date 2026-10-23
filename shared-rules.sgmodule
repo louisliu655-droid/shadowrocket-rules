@@ -4,6 +4,17 @@
 #!arguments-desc=各参数填写本机已有的代理分组名；可填写 PROXY 使用本机代理。Final 为最终未命中流量的策略。
 
 [Rule]
+# YouTube：网页、视频流、缩略图及专属接口
+DOMAIN-SUFFIX,youtube.com,{{{Video}}}
+DOMAIN-SUFFIX,googlevideo.com,{{{Video}}}
+DOMAIN-SUFFIX,ytimg.com,{{{Video}}}
+DOMAIN-SUFFIX,youtu.be,{{{Video}}}
+DOMAIN-SUFFIX,youtube-nocookie.com,{{{Video}}}
+DOMAIN,youtubei.googleapis.com,{{{Video}}}
+DOMAIN,youtube.googleapis.com,{{{Video}}}
+DOMAIN,yt3.ggpht.com,{{{Video}}}
+DOMAIN,yt4.ggpht.com,{{{Video}}}
+
 DOMAIN-KEYWORD,.cn,DIRECT
 DOMAIN,notes.louisliu.net.cn,DIRECT
 DOMAIN,sync.louisliu.net.cn,DIRECT
@@ -94,7 +105,6 @@ DOMAIN-SUFFIX,sentry.io,{{{ChatGPT}}}
 # ========================================
 # Video Sites
 # ========================================
-DOMAIN-SUFFIX,youtube.com,{{{Video}}}
 DOMAIN-KEYWORD,pornhub.com,{{{Video}}}
 # ========================================
 # 中国直连服务 (Apple / 腾讯 / 百度 / 特斯拉)
