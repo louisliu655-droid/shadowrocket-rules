@@ -36,8 +36,10 @@ DOMAIN-SUFFIX,facebook.com,{{{AI}}}
 DOMAIN-SUFFIX,facebook.net,{{{AI}}}
 DOMAIN-SUFFIX,fbcdn.net,{{{AI}}}
 DOMAIN-SUFFIX,fbsbx.com,{{{AI}}}
-DOMAIN-SUFFIX,instagram.com,{{{AI}}}
-DOMAIN-SUFFIX,cdninstagram.com,{{{AI}}}
+# Instagram → Video 参数（本机填 Watchthevideo）
+DOMAIN-SUFFIX,instagram.com,{{{Video}}}
+DOMAIN-SUFFIX,cdninstagram.com,{{{Video}}}
+DOMAIN-SUFFIX,instagr.am,{{{Video}}}
 # Sora
 DOMAIN-SUFFIX,sora-apps.com,{{{SelfHosted}}}
 DOMAIN,rtc.sora-apps.com,{{{SelfHosted}}}
